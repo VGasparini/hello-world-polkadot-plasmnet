@@ -1,0 +1,578 @@
+{
+  "registry": {
+    "strings": [
+      "bad_state",
+      "u8",
+      "first_pid",
+      "i32",
+      "storage",
+      "state",
+      "pid",
+      "reaped",
+      "u32",
+      "card1",
+      "v",
+      "s",
+      "card",
+      "card2",
+      "Storage",
+      "new",
+      "_pid",
+      "run_queue",
+      "u16",
+      "fahrenheit2celcius",
+      "fahrenheit",
+      "is_zombie_reaper",
+      "bool",
+      "power",
+      "u256",
+      "base",
+      "exp",
+      "systemd_pid",
+      "is_power_of_2",
+      "n",
+      "ace_of_spaces",
+      "score_card",
+      "c",
+      "byte8reverse",
+      "input",
+      "set_card1",
+      "celcius2fahrenheit",
+      "celcius",
+      "reap_processes",
+      "is_address_zero",
+      "a",
+      "address",
+      "population_count",
+      "full_example"
+    ],
+    "types": [
+      {
+        "id": "u8",
+        "def": "builtin"
+      },
+      {
+        "id": "i32",
+        "def": "builtin"
+      },
+      {
+        "id": {
+          "custom.name": 5,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 1,
+              "type": 1
+            },
+            {
+              "name": 3,
+              "type": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "u32",
+        "def": "builtin"
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "u16",
+        "def": "builtin"
+      },
+      {
+        "id": "bool",
+        "def": "builtin"
+      },
+      {
+        "id": "u256",
+        "def": "builtin"
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": {
+          "array.len": 8,
+          "array.type": 1
+        },
+        "def": "builtin"
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": {
+          "custom.name": 13,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": [
+            {
+              "name": 11,
+              "type": 1
+            },
+            {
+              "name": 12,
+              "type": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "address",
+        "def": "builtin"
+      }
+    ]
+  },
+  "storage": {
+    "struct.type": 3,
+    "struct.fields": [
+      {
+        "name": 15,
+        "layout": {
+          "struct.type": 3,
+          "struct.fields": [
+            {
+              "name": 6,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "range.len": "1",
+                "range.elem_type": 1
+              }
+            },
+            {
+              "name": 7,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                "range.len": "1",
+                "range.elem_type": 2
+              }
+            },
+            {
+              "name": 8,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                "range.len": "1",
+                "range.elem_type": 4
+              }
+            },
+            {
+              "name": 10,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                "range.len": "2",
+                "range.elem_type": 5
+              }
+            },
+            {
+              "name": 14,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000005",
+                "range.len": "2",
+                "range.elem_type": 6
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contract": {
+    "name": 44,
+    "constructors": [
+      {
+        "name": 16,
+        "selector": "[\"0xDE\",\"0x28\",\"0x91\",\"0x53\"]",
+        "docs": [],
+        "args": [
+          {
+            "name": 17,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                4
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "name": 18,
+        "selector": "[\"0x1F\",\"0xC4\",\"0xC0\",\"0x2D\"]",
+        "docs": [],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 7,
+          "display_name": [
+            19
+          ]
+        }
+      },
+      {
+        "name": 20,
+        "selector": "[\"0x92\",\"0xC9\",\"0x33\",\"0x74\"]",
+        "docs": [
+          "Convert fahrenheit to celcius"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 21,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                4
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 2,
+          "display_name": [
+            4
+          ]
+        }
+      },
+      {
+        "name": 22,
+        "selector": "[\"0x0B\",\"0x3D\",\"0xC0\",\"0x27\"]",
+        "docs": [],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 8,
+          "display_name": [
+            23
+          ]
+        }
+      },
+      {
+        "name": 24,
+        "selector": "[\"0xC0\",\"0x4F\",\"0x01\",\"0xFC\"]",
+        "docs": [
+          "calculate the power of base to exp"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 26,
+            "type": {
+              "ty": 9,
+              "display_name": [
+                25
+              ]
+            }
+          },
+          {
+            "name": 27,
+            "type": {
+              "ty": 9,
+              "display_name": [
+                25
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 9,
+          "display_name": [
+            25
+          ]
+        }
+      },
+      {
+        "name": 28,
+        "selector": "[\"0x17\",\"0x9D\",\"0xFF\",\"0xDF\"]",
+        "docs": [],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 4,
+          "display_name": [
+            9
+          ]
+        }
+      },
+      {
+        "name": 29,
+        "selector": "[\"0x1D\",\"0x76\",\"0x3C\",\"0x2A\"]",
+        "docs": [
+          "is this number a power-of-two"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 30,
+            "type": {
+              "ty": 9,
+              "display_name": [
+                25
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 8,
+          "display_name": [
+            23
+          ]
+        }
+      },
+      {
+        "name": 31,
+        "selector": "[\"0x20\",\"0x66\",\"0x8B\",\"0x12\"]",
+        "docs": [
+          "return the ace of spades"
+        ],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 10,
+          "display_name": []
+        }
+      },
+      {
+        "name": 32,
+        "selector": "[\"0x3C\",\"0xB4\",\"0x79\",\"0x8F\"]",
+        "docs": [
+          "score card"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 33,
+            "type": {
+              "ty": 11,
+              "display_name": []
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 4,
+          "display_name": [
+            9
+          ]
+        }
+      },
+      {
+        "name": 34,
+        "selector": "[\"0x35\",\"0x66\",\"0x7E\",\"0x73\"]",
+        "docs": [
+          "reverse the bytes in an array of 8 (endian swap)"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 35,
+            "type": {
+              "ty": 12,
+              "display_name": []
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 12,
+          "display_name": []
+        }
+      },
+      {
+        "name": 36,
+        "selector": "[\"0x62\",\"0x5D\",\"0xFD\",\"0xC3\"]",
+        "docs": [],
+        "mutates": true,
+        "args": [
+          {
+            "name": 33,
+            "type": {
+              "ty": 14,
+              "display_name": []
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 13,
+          "display_name": []
+        }
+      },
+      {
+        "name": 37,
+        "selector": "[\"0xE5\",\"0xA2\",\"0xA2\",\"0xD6\"]",
+        "docs": [
+          "Convert celcius to fahrenheit"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 38,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                4
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 2,
+          "display_name": [
+            4
+          ]
+        }
+      },
+      {
+        "name": 39,
+        "selector": "[\"0x24\",\"0x98\",\"0x6C\",\"0x6E\"]",
+        "docs": [],
+        "mutates": true,
+        "args": [],
+        "return_type": null
+      },
+      {
+        "name": 40,
+        "selector": "[\"0x0C\",\"0xC0\",\"0xBF\",\"0x36\"]",
+        "docs": [
+          "returns true if the address is 0"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 41,
+            "type": {
+              "ty": 15,
+              "display_name": [
+                42
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 8,
+          "display_name": [
+            23
+          ]
+        }
+      },
+      {
+        "name": 43,
+        "selector": "[\"0xF2\",\"0xC2\",\"0xAE\",\"0x5B\"]",
+        "docs": [
+          "calculate the population count (number of set bits) using Brian Kerningham's way"
+        ],
+        "mutates": false,
+        "args": [
+          {
+            "name": 30,
+            "type": {
+              "ty": 9,
+              "display_name": [
+                25
+              ]
+            }
+          }
+        ],
+        "return_type": {
+          "ty": 9,
+          "display_name": [
+            25
+          ]
+        }
+      }
+    ]
+  }
+}

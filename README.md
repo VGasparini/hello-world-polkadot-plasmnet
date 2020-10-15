@@ -11,4 +11,4 @@ ZpDtzcyuxkFsEm6VV6BjaSfwwFjxPR9ekxp5tPkCcmeVJHh
 
 ## Demonstration
 
-![Gimme](https://raw.githubusercontent.com/VGasparini/hello-world-polkadot/master/demo.gif)
+![Gimme](https://github.com/VGasparini/hello-world-polkadot-plasmnet/blob/main/demo.gif?raw=true)
